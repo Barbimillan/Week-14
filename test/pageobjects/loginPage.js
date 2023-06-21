@@ -19,7 +19,8 @@ class loginPage {
     get footerFbButton(){
         return $('#page_wrapper > footer > ul > li.social_facebook > a')
     }
-    async loginform (username, password) {
+
+    async loginForm (username, password) {
         await this.userNameInput.setValue(username);
         await this.passwordInput.setValue(password);
     }

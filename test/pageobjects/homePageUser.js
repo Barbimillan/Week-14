@@ -30,7 +30,7 @@ class userHomePage {
     }
 
     async logOutButtonClick() {
-        await this.logOutButton.click ();
+        await this.logOutButton.click();
     }
 }
 
